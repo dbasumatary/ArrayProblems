@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Array problems\n");
+
+            ArraySolutionsFirstPart.PrintArray();
+            ArraySolutionsFirstPart.ReverseDisplay();
+            ArraySolutionsFirstPart.SumOfElements();
+            ArraySolutionsFirstPart.CopyOneArrayToAnother();
+            ArraySolutionsFirstPart.CountDuplicate();
         }
     }
 }
